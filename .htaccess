@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteRule ^sitemap\.xml/?$ sitemap.php
+Options -Indexes
+php_flag display_errors off
+php_value error_reporting 30719

@@ -1,0 +1,241 @@
+/* Buttons */
+
+.button-1 {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.close-button {
+  color: red !important;
+  opacity: 1 !important;
+}
+
+
+/* Snippet aus https://bootsnipp.com/snippets/P2gor */
+.btn:focus, .btn:active, button:focus, button:active {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+
+  .btn-secondary:not(:disabled):not(.disabled).active.filter-checkbox, .btn-secondary:not(:disabled):not(.disabled):active.filter-checkbox {
+    background-color: #dc3545 !important;
+    border-color: #6c757d !important;
+}
+
+
+/* Text-Styles */
+.h1-light{
+  color: white;
+  font-size: 43px;
+  font-weight: bold;
+}
+
+.h1-dark{
+  color: black;
+  font-size: 43px;
+  font-weight: bold;
+}
+
+.red-text{
+  color: red !important;
+}
+
+.green-text{
+  color: green !important;
+}
+
+
+.menu-link {
+    border-top: 3px solid transparent !important;
+}
+
+.menu-link:hover, .menu-link:active, .current-menu-link {
+    border-top: 3px solid red !important;
+    color: red !important;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.valid {
+  color: black;
+}
+
+.invalid {
+  color: red;
+}
+
+/* Margins */
+.margin-top-15{
+  margin-top: 15px;
+}
+
+.margin-left-15{
+  margin-left: 15px;
+}
+
+.margin-top-bottom-05rem{
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+.margin-left-30{
+  margin-left: 30px;
+}
+
+.content {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.thumb{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.container.custom-container {
+    margin-right: 15px !important;
+    margin-left: 15px !important;
+    max-width: 100% !important;
+}
+
+.container-fluid.custom-container {
+    margin-right: 15px !important;
+    margin-left: 15px !important;
+    max-width: 100% !important;
+}
+
+.centerContent{
+  display: inline-block;
+}
+/* Sizing */
+.header {
+  height: 600px;
+}
+
+/* Positioning */
+
+.hide {
+  opacity: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+
+
+.center {
+  margin: auto !important;
+  max-width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+.slider {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 30px;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+/* Borders */
+.border-bottom-red{
+  border-bottom: 1px solid red;
+}
+
+.border-bottom-green{
+  border-bottom: 1px solid green;
+}
+
+.border-bottom-dotted-grey{
+  border-bottom: 1px dotted grey;
+}
+
+/* Other */
+ul {
+    list-style: none !important;
+}
+
+#image-gallery .modal-footer{
+    display: block;
+}
+
+@media screen and (max-width: 768px) {
+    h1{
+        font-size:18px !important;
+    }
+    .header-button {
+      display:none;
+    }
+}
+
+@media screen and (min-width: 768px){
+  .text-right-dekstop{
+    text-align: right;
+  }
+}
+
+.header {
+  height: 600px;
+}
+
+.filter-list{
+  cursor: pointer;
+}
+
+.border-box-red{
+  border: 1px solid red;
+}
+
+.border-box-green{
+  border: 1px solid green;
+}
+
+/** Credits **/
+div.icon-credits {
+  color: white;
+  text-align: center;
+  font-style: italic;
+}
+
+div.icon-credits a {
+  color: white;
+}
+
+/** External Links **/
+
+a[href*="//"]:not([href*="localhost"]) {
+    background: url(../img/icons/external.png)     center right no-repeat;
+    padding-right: 13px;
+}
