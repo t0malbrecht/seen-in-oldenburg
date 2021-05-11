@@ -1,7 +1,3 @@
-Tom Albrecht, Matrikelnummer: 5043317
-Nick Garbusa, Matrikelnummer: 4551767
-Andree Hildebrandt, Matrikelnummer: 4394647
-
 Voraussetzungen:
 Benutzer:
 Name: nick, Passwort: nick
